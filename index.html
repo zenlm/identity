@@ -6,106 +6,56 @@
   <title>Zen LM Identity</title>
   <meta name="description" content="Zen LM identity, soul, and values">
   <style>
-    :root {
-      --bg: #0a0a0a;
-      --fg: #fafafa;
-      --muted: #71717a;
-      --accent: #6366f1;
-      --border: #27272a;
-    }
+    :root { --bg: #0a0a0a; --fg: #fafafa; --muted: #71717a; --accent: #6366f1; --border: #27272a; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: var(--bg);
-      color: var(--fg);
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 2rem;
-      line-height: 1.6;
-    }
-    .container {
-      max-width: 600px;
-      text-align: center;
-    }
-    .zen { font-size: 4rem; margin-bottom: 1rem; }
-    h1 {
-      font-size: 2.5rem;
-      font-weight: 700;
-      margin-bottom: 0.5rem;
-      letter-spacing: -0.02em;
-    }
-    .tagline {
-      font-size: 1.25rem;
-      color: var(--muted);
-      margin-bottom: 2rem;
-      font-style: italic;
-    }
-    .description {
-      color: var(--muted);
-      margin-bottom: 2rem;
-      font-size: 1.1rem;
-    }
-    .links {
-      display: flex;
-      gap: 1rem;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-    a {
-      color: var(--accent);
-      text-decoration: none;
-      padding: 0.75rem 1.5rem;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      transition: all 0.2s;
-    }
-    a:hover {
-      background: var(--accent);
-      color: var(--bg);
-      border-color: var(--accent);
-    }
-    .footer {
-      position: fixed;
-      bottom: 2rem;
-      color: var(--muted);
-      font-size: 0.875rem;
-    }
-    .soul-link {
-      margin-top: 2rem;
-      padding-top: 2rem;
-      border-top: 1px solid var(--border);
-    }
-    code {
-      background: var(--border);
-      padding: 0.25rem 0.5rem;
-      border-radius: 4px;
-      font-size: 0.9rem;
-    }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--fg); min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem; line-height: 1.6; }
+    .container { max-width: 600px; text-align: center; }
+    .zen { font-size: 5rem; margin-bottom: 1rem; }
+    h1 { font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem; letter-spacing: -0.02em; }
+    .tagline { font-size: 1.25rem; color: var(--muted); margin-bottom: 2rem; font-style: italic; }
+    .description { color: var(--muted); margin-bottom: 2rem; font-size: 1.1rem; }
+    .links { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    a { color: var(--accent); text-decoration: none; padding: 0.75rem 1.5rem; border: 1px solid var(--border); border-radius: 8px; transition: all 0.2s; }
+    a:hover { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+    .footer { position: fixed; bottom: 2rem; color: var(--muted); font-size: 0.875rem; }
+    .models { margin-top: 3rem; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: left; }
+    .model { padding: 1rem; background: var(--border); border-radius: 8px; }
+    .model h3 { color: var(--fg); margin-bottom: 0.25rem; font-size: 1rem; }
+    .model p { color: var(--muted); font-size: 0.85rem; }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="zen">禅</div>
     <h1>Zen LM</h1>
-    <p class="tagline">禅 Clarity through intelligence</p>
+    <p class="tagline">Clarity through intelligence.</p>
     <p class="description">
-      This repository contains the core identity, values, and soul that define Zen LM.
+      Next-generation language models built for clarity of mind, precision of action, and presence in each moment. From edge deployment to frontier capability.
     </p>
     <div class="links">
-      <a href="https://github.com/zenlm/identity">GitHub</a>
       <a href="https://github.com/zenlm/identity/blob/main/soul.md">Soul Document</a>
-      <a href="https://github.com/zenlm/brand">Brand</a>
+      <a href="https://huggingface.co/zenlm">Models</a>
+      <a href="https://github.com/zenlm">GitHub</a>
     </div>
-    <div class="soul-link">
-      <p style="color: var(--muted); margin-bottom: 1rem;">View the soul document:</p>
-      <code>soul.md</code>
+    <div class="models">
+      <div class="model">
+        <h3>zen-nano</h3>
+        <p>0.6B · Edge deployment</p>
+      </div>
+      <div class="model">
+        <h3>zen-coder-flash</h3>
+        <p>31B MoE · Flagship</p>
+      </div>
+      <div class="model">
+        <h3>zen-omni</h3>
+        <p>7B · Multimodal</p>
+      </div>
+      <div class="model">
+        <h3>zen-max</h3>
+        <p>671B MoE · Frontier</p>
+      </div>
     </div>
   </div>
-  <div class="footer">
-    &copy; 2025 Zen LM
-  </div>
+  <div class="footer">Zen LM &middot; A Hanzo AI Model Family</div>
 </body>
 </html>
