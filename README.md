@@ -10,7 +10,7 @@ This repository contains the core identity, values, and soul of Zen LM models.
 
 ## About Zen LM
 
-Zen LM is a family of next-generation language models built on the Qwen3 architecture:
+Zen LM is a family of next-generation language models built on the Zen architecture:
 
 | Model | Parameters | Status |
 |-------|-----------|--------|
