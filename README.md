@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="identity" width="880"></p>
+
 # Zen LM Identity
 
 **禅 (Zen): Clarity through intelligence.**
